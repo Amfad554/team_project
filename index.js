@@ -1,7 +1,7 @@
 let a = 5;
-let b = 10;
-let sum = a + b;
-console.log("The sum of a and b is: " + sum);
+let c = 100;
+let sum = a + c;
+console.log("The sum of a and c is: " + sum);
 console.log("Hello, World!");
 console.log("This is a simple JavaScript program.");
 console.log("Goodbye, World!");
