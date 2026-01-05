@@ -1,0 +1,29 @@
+1. Confirm you’re on your branch
+git branch
+
+You should see:
+* your-branch-name
+  main
+
+2. Check what you changed
+git status
+
+3. Add your changes
+git add .
+
+4. Commit your changes
+git commit -m "Describe what you changed"
+
+Example:
+git commit -m "Fix user registration validation"
+
+
+5. Push your branch to remote
+git push origin your-branch-name
+
+
+6. Do the below
+git checkout main
+git pull origin main
+git merge your-branch-name
+git push origin main
