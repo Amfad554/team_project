@@ -1,5 +1,5 @@
 let a = 5;
-let c = 100;
+let c = 500;
 let sum = a + c;
 console.log("The sum of a and c is: " + sum);
 console.log("Hello, World!");
